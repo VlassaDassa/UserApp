@@ -18,7 +18,8 @@ const Users: FC = () => {
     setLoading(true)
     try {
       const data = await requestUsers({ name: nameFilter, age: ageFilter, limit: countElements, offset: (currentPage-1) * countElements});
-      // const data = await requestUsersWithError();  ---> Ошибка
+      // Вызов ошибки:
+      // const data = await requestUsersWithError();
       if (data) {
         setUsers(data);
         setLoading(false)
