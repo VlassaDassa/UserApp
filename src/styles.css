@@ -13,6 +13,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  
 }
 
 a {
@@ -38,24 +40,6 @@ h1 {
   line-height: 1.1;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #f9f9f9;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
 
 code {
   color: indigo;
@@ -64,4 +48,43 @@ code {
 img {
   border: 2px solid indigo;
   border-radius: 4px;
+}
+
+
+#root {
+  display: flex;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid indigo;
+  width: 300px;
+  overflow: hidden;
+}
+
+
+.pgnContainer {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  margin-top: 20px;
+}
+
+
+button {
+  color: black;
+}
+
+input {
+  background: white;
+  color: black;
+}
+
+
+.usersContainer {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 10px 0;
 }

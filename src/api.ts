@@ -29,7 +29,7 @@ export const requestUsersWithError = (
 export const requestUsers = (params: Query = baseQuery): Promise<User[]> => {
   const users: User[] = [
     { name: "Jack", id: 0, age: 26 },
-    { name: "Helen", id: 1, age: 36 },
+    { name: "Helen", id: 1, age: 26 },
     { name: "Rick", id: 2, age: 44 },
     { name: "Tom", id: 3, age: 45 },
     { name: "Sarah", id: 4, age: 40 },

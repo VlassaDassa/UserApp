@@ -1,5 +1,8 @@
 import { FC } from "react";
-import exmapleImg from "./assets/example.png";
+const exampleImg = require('./assets/example.png');
+
+
+
 
 const Requirements: FC = () => (
   <div>
@@ -53,7 +56,7 @@ const Requirements: FC = () => (
     </ol>
 
     <h2>Пример интерфейса проекта</h2>
-    <img src={exmapleImg} width={480} alt="Пример интерфейса проекта" />
+    <img src={exampleImg} width={480} alt="Пример интерфейса проекта" />
 
     <p>
       Использование стилей, ui-kit и прочего не требуется. Достаточно
